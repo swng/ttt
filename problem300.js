@@ -26,8 +26,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [S, S, S];
-    this.caption = 'Ｓミノの最適化　その１';
-    this.hint = 'その場で　右回転です。ＳやＺの\n最適化は難しいので　１セクション\nまるまる使って　多めに\n練習していきます。';
+    this.caption = 'S Piece Finesse Part 1';
+    this.hint = 'Rotate it in place clockwise. \nS and Z finesse is difficult, \nso we are going to use the entire \nsection to practice it.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,3,0,0,0,0,0,0,0,0,0,0,0];
@@ -55,8 +55,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [S, S, S];
-    this.caption = 'Ｓミノの最適化　その２';
-    this.hint = 'その場で　左回転です。どちらに\n回しても　立てると同じ形に\nなりますが　回転方向によって\n位置が　１ブロック分　変わります。';
+    this.caption = 'S Piece Finesse Part 2';
+    this.hint = 'Rotate in place counterclockwise. \nThe shape does not change whether \nyou rotate it counterclockwise or clockwise, \nbut the position is different by 1 block';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,3,0,0,0,0,0,0,0,0,0,0,0];
@@ -84,8 +84,8 @@ function Problem300(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
-    this.caption = 'Ｓミノの最適化　その３';
-    this.hint = '右回転と右移動、そして\n左回転と左移動です。Ｉのときと\n似ていますね。形が左と右で\n同じなのも　そうですし。';
+    this.caption = 'S Piece Finesse Part 3';
+    this.hint = 'Clockwise and 1 to the right、\nthen counterclockwise and 1 to the left. \nIts similar to the I piece where both \ndirections only seem to be the same';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -113,8 +113,8 @@ function Problem300(id){
                           [0,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
-    this.caption = 'Ｓミノの最適化　その４';
-    this.hint = '右端寄せと右回転、それからその逆。\n完全に　端に寄せる場合は　寄せたい\n方向に回すのが　ベターです。';
+    this.caption = 'S Piece Finesse Part 4';
+    this.hint = 'Clockwise and move to right wall、\nthen do the opposite. \nWhen moving to the walls its always \nbetter to rotate the same direction you move';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -142,8 +142,8 @@ function Problem300(id){
                           [1,0,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
-    this.caption = 'Ｓミノの最適化　その５';
-    this.hint = '今度は　右端で左回転と\n左端で右回転です。これは\nムズカシイ！　使いこなせたら\nもう　上級者の仲間入りかも？';
+    this.caption = 'S Piece Finesse Part 5';
+    this.hint = 'This time move to right wall then counterclockwise \nand vice versa. This one is hard!';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
