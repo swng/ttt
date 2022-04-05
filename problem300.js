@@ -85,7 +85,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
     this.caption = 'S Piece Finesse Part 3';
-    this.hint = 'Clockwise and 1 to the right、\nthen counterclockwise and 1 to the left. \nIts similar to the I piece where both \ndirections only seem to be the same';
+    this.hint = "Clockwise and 1 to the right、\nthen counterclockwise and 1 to the left. \nIt's similar to the I piece where both \ndirections only seem to be the same";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -114,7 +114,7 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
     this.caption = 'S Piece Finesse Part 4';
-    this.hint = 'Clockwise and move to right wall、\nthen do the opposite. \nWhen moving to the walls its always \nbetter to rotate the same direction you move';
+    this.hint = "Clockwise and move to right wall、\nthen do the opposite. \nWhen moving to the walls it's always \nbetter to rotate the same direction you move";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
