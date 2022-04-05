@@ -56,7 +56,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [S, S, S];
     this.caption = 'S Piece Finesse Part 2';
-    this.hint = 'Rotate in place counterclockwise. \nThe shape does not change whether \nyou rotate it counterclockwise or clockwise, \nbut the position is different by 1 block';
+    this.hint = 'Rotate in place counterclockwise. \nThe shape does not change whether you rotate it counterclockwise or clockwise, but the position is different by 1 block';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,3,0,0,0,0,0,0,0,0,0,0,0];
@@ -143,7 +143,7 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
     this.caption = 'S Piece Finesse Part 5';
-    this.hint = 'This time move to right wall then counterclockwise \nand vice versa. This one is hard!';
+    this.hint = 'This time move to right wall then counterclockwise and vice versa. \nThis one is hard!';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -171,8 +171,8 @@ function Problem300(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [Z, Z, Z, Z, Z, Z];
-    this.caption = 'Ｚミノの最適化　その１';
-    this.hint = 'Ｚでも　Ｓと同じように　練習\nしましょう。その場で回転です。\nずらしたい方向に　向けて\n回転するのが　コツです。';
+    this.caption = 'Z Piece Finesse Part 1';
+    this.hint = 'Lets practice Z just like we did S. \nRotate it in place. \nThe trick is to rotate in the direction you want to move';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -200,8 +200,8 @@ function Problem300(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [Z, Z, Z, Z, Z, Z];
-    this.caption = 'Ｚミノの最適化　その２';
-    this.hint = '１回の回転と　１回の移動です。\nどちらに回すかは　もう\n大丈夫でしょうか？';
+    this.caption = 'Z Piece Finesse Part 2';
+    this.hint = 'Rotate 1 time and move 1 time. \nIs it okay to rotate the piece in either direction？';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -229,8 +229,8 @@ function Problem300(id){
                           [0,0,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, Z, Z, Z, Z, Z];
-    this.caption = 'Ｚミノの最適化　その３';
-    this.hint = '寄せたい方向に回しつつ　端へ。\n一番端に　寄せる場合は\n先に回転、または動かしながら\n回転するのが　いいでしょう。';
+    this.caption = 'Z Piece Finesse Part 3';
+    this.hint = 'Rotate towards the direction you move in. \nYou can rotate either after reaching the wall or while moving towards it.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -258,8 +258,8 @@ function Problem300(id){
                           [1,0,0,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, Z, Z, Z, Z, Z];
-    this.caption = 'Ｚミノの最適化　その４';
-    this.hint = '端に寄せて　逆側に回します。\n実戦では　わかっているのに\nうまく最適操作できないことも\n多いです。地道に練習を！';
+    this.caption = 'Z Piece Finesse Part 4';
+    this.hint = "Move to the wall then rotate away from it. \nSometimes it's hard to keep optimal finesse in the heat of battle, make sure to practice！";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -287,8 +287,8 @@ function Problem300(id){
                           [0,0,0,0,0,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, T];
-    this.caption = 'Ｚミノの最適化　その５';
-    this.hint = 'Ｚを左回転で　ガイドの位置へ\n移動し、左回転！　落としてから\n移動するより　少し早いです。\nTSD を決めてください。';
+    this.caption = 'Z Piece Finesse Part 5';
+    this.hint = 'Rotate counterclockwise, drop it into the guide piece, then again counterclockwise! \nThis is a little faster than tucking after dropping all the way down. \nNow take the TSD';
     this.isStrictGuide = false;
     this.guides = [G(3, 3, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -316,8 +316,8 @@ function Problem300(id){
                           [1,0,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [Z, T, T];
-    this.caption = '通称「インペリアルクロス」';
-    this.hint = 'TSD を２回打てます。Ｔ穴を\n間違って　両側塞いじゃったら\nこれを作って　リカバリー！';
+    this.caption = 'Technique 「Imperial Cross]';
+    this.hint = 'Sends 2 TSDs. If you mistakenly cover both sides of your T hole you can use this to recover!';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 15), G(1, 1, 17), G(2, 0, 17)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -345,8 +345,8 @@ function Problem300(id){
                           [1,0,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [Z, T, T];
-    this.caption = '通称「ダブルダガー」';
-    this.hint = 'これも連続で TSD を狙う形です。\nとても強力ですが　Ｔが不足し\nそのまま敗北　ということも…';
+    this.caption = 'Technique「Fractal」';
+    this.hint = 'This is also a double TSD shape. \nIt is very strong but if you lack the T pieces things can go downhill pretty quickly...';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 15), G(2, 1, 15), G(2, 1, 17)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -374,8 +374,8 @@ function Problem300(id){
                           [0,0,0,1,1,1,1,1,1,1],
                           [0,0,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, O, T, T];
-    this.caption = '「スーパー T-SPIN DOUBLE 」　その１';
-    this.hint = '「STSD」と略されます。\n簡単に作れて　しかも強い\n連続 TSD の　代表形です。';
+    this.caption = '「Super T Spin Double」 Part 1';
+    this.hint = "Commonly abbreviated 「STSD」, \nIt's easy to build and a very strong double TSD pattern. ";
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 17), G(0, 1, 14), G(3, 1, 17), G(2, 0, 17)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -403,8 +403,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [L, S, T, T];
-    this.caption = '「スーパー T-SPIN DOUBLE 」　その２';
-    this.hint = '幅３の穴を見たら　STSD を\n組むチャンス。ためしに\nこの空間で　組んでみましょう。';
+    this.caption = '「Super T Spin Double」 Part 2';
+    this.hint = 'If you notice a 3 wide hole, you can use it to build an STSD. \nLets try it out and build one in this space.';
     this.isStrictGuide = true;
     this.guides = [G(3, 4, 9), G(3, 2, 5), G(1, 2, 9), G(2, 3, 9)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -432,8 +432,8 @@ function Problem300(id){
                           [1,0,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = '「 STSD 」を諦める';
-    this.hint = '相手の攻撃で　こうなったら\n最初のＴは　入りません。\nそんなときは　ＪやＬで応急処置。';
+    this.caption = 'Giving up on an「 STSD 」';
+    this.hint = 'If your opponent sends garbage that ends up like this, the first T will not go in properly. \nIf that happens you can escape with an L or J.';
     this.isStrictGuide = true;
     this.guides = [G(3, 1, 16), G(2, 0, 16)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -461,8 +461,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,0,0,1,1],
                           [1,1,1,1,1,0,0,0,1,1]];
     this.ingredients = [Z, O, T];
-    this.caption = '「 STMB Cave 」　その１';
-    this.hint = '空に　橋を架けるかのような\n美しい　TSD です。地形も\n汚くなりません。';
+    this.caption = '「 STMB Cave 」　Part 1';
+    this.hint = 'This is a beautiful TSD shape like building a bridge across a gap. It keeps your board clean as well.';
     this.isStrictGuide = true;
     this.guides = [G(0, 4, 15), G(0, 7, 13), G(2, 6, 14)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -490,8 +490,8 @@ function Problem300(id){
                           [1,1,1,1,0,0,0,1,1,1],
                           [1,1,1,1,0,0,0,1,1,1]];
     this.ingredients = [Z, L, T];
-    this.caption = '「 STMB Cave 」　その２';
-    this.hint = '幅３の穴の上で　狙える\n可能性があります。';
+    this.caption = '「 STMB Cave 」　Part 2';
+    this.hint = 'You can go for this shape on top of a 3 wide hole.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 15), G(3, 7, 14), G(2, 5, 14)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -519,8 +519,8 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, S, L, Z, I, O, O, T, S, T];
-    this.caption = 'Perfect Clear か TSD を狙うテンプレ';
-    this.hint = '８手目以降次第では　Perfect Clear を\n狙えますが　失敗しても TSD を\n狙える形です。';
+    this.caption = 'A Perfect Clear or TSD Opener';
+    this.hint = 'Depending on your 8th piece and beyond you can aim for a perfect clear, \nbut if that fails you can take a TSD as well.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(3, 0, 16), G(0, 4, 18), G(1, 4, 16), G(3, 6, 16),
                    G(0, 7, 18), G(0, 7, 16), G(2, 2, 17), G(0, 3, 18), G(2, 1, 17)];
@@ -549,8 +549,8 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [S, Z, J, L, O, I, O, T];
-    this.caption = '開幕ＳＺからの TSD 狙い';
-    this.hint = '開幕ＳＺは　厄介ですが　この\nように　TSD 開幕もできます。\nこの後は　左端で TST 狙いも！';
+    this.caption = 'Early S Z TSD Opener';
+    this.hint = 'An S Z start is quite annoying, but you can easily build a TSD like this. \nYou can even follow up with a TST on the left！';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 17), G(3, 3, 17), G(3, 4, 17), G(1, 5, 17), G(0, 6, 17),
                    G(1, 7, 16), G(0, 2, 15), G(2, 1, 16)];
@@ -579,8 +579,8 @@ function Problem300(id){
                           [1,1,1,0,0,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [S, I, O, L, Z, J, T, L, S, J, I, T, O, Z, J, S];
-    this.caption = '中開け４列 REN';
-    this.hint = '続けて消すと REN になり　次第に\n攻撃力が　増加します。ここまで\nやると　相手は死ぬ。';
+    this.caption = 'Center 4 Wide Combo';
+    this.hint = 'Lines cleared in succession will buid a combo, and as the combo grows your attack power will increase. \nWith a combo this large your opponent will die.';
     this.isStrictGuide = true;
     this.guides = [G(1, 4, 17), G(0, 3, 16), G(0, 2, 18), G(3, 5, 17), G(2, 3, 17),
                    G(1, 2, 17), G(0, 4, 18), G(3, 5, 17), G(0, 3, 17), G(0, 3, 18),
