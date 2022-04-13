@@ -641,7 +641,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, L, T];
     this.caption = 'Balanced Stacking (Skimming) Part 2';
-    this.hint = 'In this section we will learn ways to even out the height differences on your board and aim for TSD.';
+    this.hint = 'In this section we will learn ways to even out the height differences by skimming (clearing lines) and aim for a TSD.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 13), G(0, 1, 12), G(2, 3, 13)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -670,7 +670,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [J, O, T];
     this.caption = 'Balanced Stacking (Skimming) Part 3';
-    this.hint = '積んで揃えるタイプの「平衡の\n技法」は　セクション６と７で\n学びました。たまには復習も！';
+    this.hint = 'We learned balanced stacking by building up in sections 6 and 7. Make sure to practice once in a while!';
     this.isStrictGuide = true;
     this.guides = [G(0, 4, 14), G(0, 3, 13), G(2, 5, 14)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
