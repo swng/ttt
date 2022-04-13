@@ -85,7 +85,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
     this.caption = 'S Piece Finesse Part 3';
-    this.hint = "Clockwise and 1 to the right、\nthen counterclockwise and 1 to the left. \nIt's similar to the I piece where both \ndirections only seem to be the same";
+    this.hint = "Clockwise and move 1 to the right、\nthen counterclockwise and move 1 to the left. \nIt's similar to the I piece where both \ndirections only seem to be the same";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -114,7 +114,7 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
     this.caption = 'S Piece Finesse Part 4';
-    this.hint = "Clockwise and move to right wall、\nthen do the opposite. \nWhen moving to the walls it's always \nbetter to rotate the same direction you move";
+    this.hint = "Clockwise and move to the right wall、\nthen do the opposite. \nWhen moving to the walls it's always \nbetter to rotate the same direction you move";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -143,7 +143,7 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [S, S, S, S, S, S];
     this.caption = 'S Piece Finesse Part 5';
-    this.hint = 'This time move to right wall then counterclockwise and vice versa. \nThis one is hard!';
+    this.hint = 'This time move to the right wall then rotate counterclockwise and vice versa. \nThis one is hard!';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -288,7 +288,7 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, T];
     this.caption = 'Z Piece Finesse Part 5';
-    this.hint = 'Rotate counterclockwise, drop it into the guide piece, then again counterclockwise! \nThis is a little faster than tucking after dropping all the way down. \nNow take the TSD';
+    this.hint = 'Rotate counterclockwise, drop it into the guide piece, then again counterclockwise! \nThis is a little faster than tucking after dropping it all the way down. \nNow take the TSD';
     this.isStrictGuide = false;
     this.guides = [G(3, 3, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -580,7 +580,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [S, I, O, L, Z, J, T, L, S, J, I, T, O, Z, J, S];
     this.caption = 'Center 4 Wide Combo';
-    this.hint = 'Lines cleared in succession will buid a combo, and as the combo grows your attack power will increase. \nWith a combo this large your opponent will die.';
+    this.hint = 'Lines cleared in succession will buid a combo, and as the combo grows your attack power will increase. \nWith a combo this large your opponent will likely die.';
     this.isStrictGuide = true;
     this.guides = [G(1, 4, 17), G(0, 3, 16), G(0, 2, 18), G(3, 5, 17), G(2, 3, 17),
                    G(1, 2, 17), G(0, 4, 18), G(3, 5, 17), G(0, 3, 17), G(0, 3, 18),
@@ -611,8 +611,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [L, Z, T];
-    this.caption = '「平衡の技法」(削り型)　その１';
-    this.hint = '適切に地形を削ったり\n積んだりして　高さを揃える\n技術を「平衡の技法」といいます。';
+    this.caption = 'Balanced Stacking (Skimming) Part 1';
+    this.hint = 'Adequately leveling out both sides of your board through stacking and clearing lines is called balanced stacking.';
     this.isStrictGuide = true;
     this.guides = [G(3, 6, 15), G(1, 4, 15), G(2, 6, 16)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -640,8 +640,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, L, T];
-    this.caption = '「平衡の技法」(削り型)　その２';
-    this.hint = '本セクションでは　削って\n高さを整えて　TSD を狙う\n方法を　学んでいきましょう。';
+    this.caption = 'Balanced Stacking (Skimming) Part 2';
+    this.hint = 'In this section we will learn ways to even out the height differences on your board and aim for TSD.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 13), G(0, 1, 12), G(2, 3, 13)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -669,7 +669,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [J, O, T];
-    this.caption = '「平衡の技法」(削り型)　その３';
+    this.caption = 'Balanced Stacking (Skimming) Part 3';
     this.hint = '積んで揃えるタイプの「平衡の\n技法」は　セクション６と７で\n学びました。たまには復習も！';
     this.isStrictGuide = true;
     this.guides = [G(0, 4, 14), G(0, 3, 13), G(2, 5, 14)];
@@ -698,8 +698,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [Z, Z, J, T];
-    this.caption = '「平衡の技法」(削り型)　その４';
-    this.hint = '本来は　Ｓが欲しいところですが\nＺで削る手もあります。';
+    this.caption = 'Balanced Stacking (Skimming) Part 4';
+    this.hint = 'Where you would normally want an S here, you are also able to clear with a Z instead.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 11), G(1, 0, 9), G(0, 5, 10), G(2, 2, 10)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -727,8 +727,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = '「 WC の鋤の刃」';
-    this.hint = '単に「鋤の刃(すきのは)」と\n呼ばれます。地形を削りながら\nTSD を　狙います。';
+    this.caption = 'Balanced Satcking (Skimming) Part 5';
+    this.hint = 'Here you are able to clear a line while aiming for a TSD';
     this.isStrictGuide = true;
     this.guides = [G(2, 5, 14), G(2, 4, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -756,8 +756,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, Z, T];
-    this.caption = '「平衡の技法」(削り型)の実践　その１';
-    this.hint = 'ここからは　ガイドなしで\nやってみましょう。\nTSD を発動してください。';
+    this.caption = 'Balanced Stacking (Skimming) Practice 1';
+    this.hint = 'From here on try it without the guide. \nExecute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -785,8 +785,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, L, T];
-    this.caption = '「平衡の技法」(削り型)の実践　その２';
-    this.hint = 'TSD を発動してください。\nＯミノで　大きさ２×２の\n空間を削ります。';
+    this.caption = 'Balanced Stacking (Skimming) Practice 2';
+    this.hint = 'Execute a TSD. \nYou can do so by clearing a 2x2 space with the O piece.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -814,8 +814,8 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [L, T];
-    this.caption = '「鋤の刃」の実践';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Balanced Stacking (Skimming) Practice 3';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -843,8 +843,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, S, T];
-    this.caption = '「QTK」';
-    this.hint = 'TSD を決めてください。\nこの特徴的なＳ削りからの　TSD は\n「QTK」(急な高い壁)と呼ばれます。';
+    this.caption = 'Balanced Stacking (Skimming) Practice 4';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -872,8 +872,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [Z, S, T];
-    this.caption = '削って高さを揃える';
-    this.hint = 'TSD を決めてください。';
+    this.caption = 'Balance the heights by skimming';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -901,8 +901,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, J, T, I];
-    this.caption = '「ドネイト」　その１';
-    this.hint = 'ドネイト(donate)は「寄付する」\nという意味。Back to Back を\n付けて次の攻撃に寄与します。';
+    this.caption = '「Donation」 Part 1';
+    this.hint = 'Keep back to back while setting up your next attack.';
     this.isStrictGuide = true;
     this.guides = [G(0, 5, 12), G(0, 3, 10), G(2, 1, 11), G(1, 4, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -930,8 +930,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [L, Z, S, T, I];
-    this.caption = '「ドネイト」　その２';
-    this.hint = '一度　縦穴を塞ぎます。塞いだ\n部分を　すぐに消せるよう　先を\nイメージしつつ　組み立てます。';
+    this.caption = '「Donation」 Part 2';
+    this.hint = 'You will shortly cover your well, but be sure to think ahead and build in a way that it will be easily uncovered.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 9), G(0, 6, 8), G(0, 0, 8), G(2, 2, 8), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -959,8 +959,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, O, T, I];
-    this.caption = '「ドネイト」　その３';
-    this.hint = 'TSD をするならば　穴の上には\nちょうど２個　積みます。余計に\n積むと　むしろピンチに…！';
+    this.caption = '「Donation」 Part 3';
+    this.hint = "When building a TSD, be sure to build up exactly 2 blocks. \nAny more could easily put you a pinch!';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 12), G(0, 3, 14), G(2, 1, 13), G(3, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -988,8 +988,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [Z, S, T, I];
-    this.caption = '「ドネイト」　その４';
-    this.hint = 'ＳＺのコンビネーションです。\n絶対に　覚えておきたい\n常用テクニックです。';
+    this.caption = '「Donation」 Part 4';
+    this.hint = "This is the S Z combination. \nYou should definitely remember this, it's a common technique";
     this.isStrictGuide = true;
     this.guides = [G(1, 7, 9), G(0, 4, 8), G(2, 6, 8), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -1017,8 +1017,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [S, O, T, I];
-    this.caption = '「ドネイト」　その５';
-    this.hint = 'NEXT の状況によっては\nTSS で我慢した方が　いい場合も\nあり得ます。';
+    this.caption = '「Donation」 Part 5';
+    this.hint = "Depending on scenarios like this one it's often better to just take a TSS instead. ";
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 10), G(0, 4, 7), G(2, 6, 8), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,0,1,0,0,0,0,0];
@@ -1046,8 +1046,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, O, T, I];
-    this.caption = '「ドネイト」　その６';
-    this.hint = '４段以上の　階段を見たら\nドネイト発動の　チャンスです。';
+    this.caption = '「Donation」 Part 6';
+    this.hint = "If you notice stairs of 4 steps or more, it's a chance for a 「Kaidan」 donation. ";
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 10), G(0, 2, 8), G(2, 1, 9), G(3, -1, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -1075,8 +1075,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [T, S, T, I];
-    this.caption = '「よしひろ」';
-    this.hint = '最初のＴは　TSM で。「よしひろ」\nは『テトリスDS』で　活躍した\nプレイヤーの名前です。';
+    this.caption = '「Yoshihiro」';
+    this.hint = 'Make sure to TSM with the first T.「Yoshihiro」 is the name of a Tetris DS player.';
     this.isStrictGuide = true;
     this.guides = [G(3, 8, 13), G(0, 4, 13), G(2, 6, 13), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,1,0,1,0,0,0,0];
@@ -1104,8 +1104,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [L, T, T, I];
-    this.caption = '「鋤の刃」で「ドネイト」';
-    this.hint = '途中で TSM を決めてください。\nこれなら　鋤の刃をしても　Back to \nBack が　維持されますね。';
+    this.caption = '「Donation」with「Skimming」';
+    this.hint = 'Take a TSM while making this. \nIf built like this you can use the skim from earlier while keeping back to back.';
     this.isStrictGuide = true;
     this.guides = [G(2, 1, 12), G(1, -1, 11), G(2, 2, 13), G(3, 2, 16)];
     this.req = [0,0,0,1,0,0,1,0,1,0,0,0,0];
@@ -1133,8 +1133,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [S, L, O, T, Z, T];
-    this.caption = '「社畜トレイン」';
-    this.hint = 'TSD を　なんと２回も発動。\n余裕がありそうなら　狙って\nみるのも　いいかもしれません。';
+    this.caption = '「Shachiku Train」';
+    this.hint = "You can make 2 TSDs out of this. \nIt's good to aim for this when you have room to work with.";
     this.isStrictGuide = true;
     this.guides = [G(0, 6, 15), G(3, 8, 14), G(0, 3, 12), G(2, 5, 13), G(3, 6, 13), G(2, 7, 14)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -1162,8 +1162,8 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, L, O, T, I];
-    this.caption = 'TST 風の TSD でドネイト';
-    this.hint = 'TST 風です。もちろん本当に TST\nする手も　ありますが　隙が大き\n過ぎるので　状況次第です。';
+    this.caption = 'Incomplete TST donations';
+    this.hint = 'This is an Incomplete TST. \nOf course there are times where you can complete the TST, but it depends on the situation.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 10), G(3, 6, 8), G(0, -1, 11), G(3, 5, 10), G(3, 0, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -1191,8 +1191,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [L, J, T];
-    this.caption = '「ドネイト」の実践　その１';
-    this.hint = 'TSD を発動してください。';
+    this.caption = '「Donation」 Practice 1';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1220,8 +1220,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [J, Z, T];
-    this.caption = '「ドネイト」の実践　その２';
-    this.hint = 'TSD を発動してください。';
+    this.caption = '「Donation」 Practice 2';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1249,8 +1249,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [O, J, L, T];
-    this.caption = '「ドネイト」の実践　その３';
-    this.hint = 'TSD を発動してください。';
+    this.caption = '「Donation」 Practice 3';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1278,8 +1278,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [Z, S, T];
-    this.caption = '「ドネイト」の実践　その４';
-    this.hint = 'TSD を発動してください。\nＺとＳ…ということは？';
+    this.caption = '「Donation」 Practice 4';
+    this.hint = 'Execute a TSD. \nThere is a Z and S so...?';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1307,8 +1307,8 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [S, J, T];
-    this.caption = '「ドネイト」の実践　その５';
-    this.hint = 'TSD を発動してください。\n階段の形を　していますね。';
+    this.caption = '「Donation」 Practice 5';
+    this.hint = 'Execute a TSD. \nIt looks kinda like stairs.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1336,8 +1336,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, J, L, T, T];
-    this.caption = '「ドネイト」の実践　その６';
-    this.hint = 'TSD を発動してください。';
+    this.caption = '「Donation」 Practice 6';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1365,8 +1365,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, J, Z, T];
-    this.caption = '「ドネイト」の実践　その７';
-    this.hint = 'TSM と TSD を発動してください。\nいわゆる「よしひろ」に近い方法です。';
+    this.caption = '「Donation」 Practice 7';
+    this.hint = 'Execute a TSM and a TSD. \nA technique attributed to Yoshihiro.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,1,0,1,0,0,0,0];
@@ -1394,8 +1394,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [J, L, S, T];
-    this.caption = '「ドネイト」の実践　その８';
-    this.hint = 'TSD を発動してください。';
+    this.caption = '「Donation」 Practice 8';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1423,8 +1423,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [L, J, O, T];
-    this.caption = '「ドネイト」の実践　その９';
-    this.hint = 'TSD を発動してください。\n少し浮いた場所での　TSD です。';
+    this.caption = '「Donation」 Practice 9';
+    this.hint = "Execute a TSD. \nIt's a bit of a floating TSD.";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1452,8 +1452,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [J, L, O, T];
-    this.caption = '「ドネイト」の実践　その10';
-    this.hint = 'TSD を発動してください。\nヒントは「 STSD 」(問題 22-3 )です。';
+    this.caption = '「Donation」 Practice 10';
+    this.hint = 'Execute a TSD. \nYour hint is「STSD」(Problem 22-3). ';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
