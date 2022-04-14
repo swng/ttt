@@ -1568,7 +1568,7 @@ function Problem300(id){
                           [1,1,1,1,1,0,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, O, T, T];
-    this.caption = 'Prophecy T-spins Part 2';
+    this.caption = 'Prophecy T-spins Part 4';
     this.hint = 'A prophecy TSD can also be made under a TSD. \nThis is known as a "Cut Copy".';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 14), G(0, 6, 14), G(2, 4, 15), G(2, 5, 17)];
@@ -1656,7 +1656,7 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I, O, J, T];
     this.caption = 'J and L Prophecy T-spins Part 2';
-    this.hint = 'You may want to use a Z on the left but \nlooking at the queue the J could also be helpful.';
+    this.hint = 'You may want to use a Z on the left but \nlooking at the queue J could also be helpful.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 15), G(0, 3, 14), G(1, -1, 14), G(2, 1, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1685,7 +1685,7 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [J, S, T];
     this.caption = '「QTK」';
-    this.hint = 'This is a technique mentioned in the balanced stacking section.\nCalled 「QTK」 in Japanese, it is unnamed in the English community.';
+    this.hint = 'This is a technique mentioned in the balanced stacking section.\nCalled 「QTK」 in Japanese, I believe it is unnamed in the English community.';
     this.isStrictGuide = true;
     this.guides = [G(1, 1, 9), G(3, 0, 13), G(2, 0, 12)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2265,7 +2265,7 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [L, Z, I, S, T];
     this.caption = 'Final Exam Part 8.';
-    this.hint = 'Execute a tetris and a TSD. Build the TSD by looking ahead.';
+    this.hint = 'Execute a tetris and a TSD. \nBuild the TSD by looking ahead.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -2765,7 +2765,7 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [Z, L, I, I, S, J, Z, T, T, T, T];
     this.caption = '「Infinite Stairs」';
-    this.hint = 'You can infinitely build a TSM -> TST. \nSending the T pieces down the stairs can be strangely addicting…';
+    this.hint = 'You can infinitely build a TSM -> TST combo. \nSending the T pieces down the stairs can be strangely addicting…';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 16), G(2, 0, 14), G(3, 3, 15), G(3, -1, 11), G(3, 3, 12),
                    G(2, 2, 10), G(3, 0, 8), G(0, 1, 17), G(3, 2, 16), G(0, 1, 17),
@@ -2891,7 +2891,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'Flustered I Piece';
+    this.caption = 'I Piece Confusion';
     this.hint = 'Bring the I Piece to the bottom by skillfully rotating it down.';
     this.isStrictGuide = false;
     this.guides = [];
