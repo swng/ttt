@@ -172,7 +172,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [Z, Z, Z, Z, Z, Z];
     this.caption = 'Z Piece Finesse Part 1';
-    this.hint = 'Lets practice Z just like we did S. \nRotate it in place. \nThe trick is to rotate in the direction you want to move';
+    this.hint = "Let's practice Z just like we did S. \nRotate it in place. \nThe trick is to rotate in the direction you want to move";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -404,7 +404,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [L, S, T, T];
     this.caption = '「Super T Spin Double」 Part 2';
-    this.hint = 'If you notice a 3 wide hole, you can use it to build an STSD. \nLets try it out and build one in this space.';
+    this.hint = "If you notice a 3 wide hole, you can use it to build an STSD. \nLet's try it out and build one in this space.";
     this.isStrictGuide = true;
     this.guides = [G(3, 4, 9), G(3, 2, 5), G(1, 2, 9), G(2, 3, 9)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2323,7 +2323,7 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, J, T];
     this.caption = 'Final Exam Part 10';
-    this.hint = 'Execute a TSD. \n…but it seems a regular TSD wont work.';
+    this.hint = "Execute a TSD. \n…but it seems a regular TSD won't work.";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
