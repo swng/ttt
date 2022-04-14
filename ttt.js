@@ -294,7 +294,7 @@ function Dequeue(){
 function RefreshHint(){
   var hint = gCurProblem.hint;
   if(gCurGuide && gCurProblem.isStrictGuide){
-    hint += '\n(ガイド通りに　置いてください)';
+    hint += '\n(Follow the guide pieces)';
   }
   Say('perform_hint', hint);
 }
