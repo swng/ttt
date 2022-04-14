@@ -1481,8 +1481,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, I, L, T];
-    this.caption = 'TSD の先読み　その１';
-    this.hint = 'Ｓの置き場所に注目！\n上の列を掘った後　TSD が\nできるように　置いています。';
+    this.caption = 'Prophecy T-spins Part 1';
+    this.hint = 'Pay attention to the placement of the S piece! \nPlace it so that you can take a TSD once the lines below it have been cleared.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 12), G(1, 7, 14), G(0, 7, 16), G(2, 2, 16)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1510,8 +1510,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [L, S, J, T];
-    this.caption = 'TSD の先読み　その２';
-    this.hint = 'Ｔ穴以外の所も　先に埋めています。';
+    this.caption = 'Prophecy T-spins Part 2';
+    this.hint = 'Areas surrounding the T hole should be filled in as well.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 13), G(0, 3, 13), G(1, 7, 14), G(2, 5, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1539,8 +1539,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [O, I, S, T];
-    this.caption = 'TSD の先読み　その３';
-    this.hint = '今度は　Ｏの場所がポイント。\n今使える穴だけでなく　次の穴にも\n注目してみてください。';
+    this.caption = 'Prophecy T-spins Part 3';
+    this.hint = 'This time make a point of the O Placement. \nRemember to be careful of the next garbage holes as well.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 11), G(3, 6, 14), G(3, 6, 15), G(2, 2, 16)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1568,8 +1568,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, O, T, T];
-    this.caption = 'TSD の先読み　その４';
-    this.hint = 'TSD の次に　TSD ができる\n攻撃的な先読みも可能です。\n試しに　やってみましょう。';
+    this.caption = 'Prophecy T-spins Part 2';
+    this.hint = 'A prophecy TSD can also be made under a TSD. \nThis is known as a "Cut Copy".';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 14), G(0, 6, 14), G(2, 4, 15), G(2, 5, 17)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -1597,8 +1597,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [S, O, L, I, T];
-    this.caption = '列数を考慮する';
-    this.hint = '穴が５列分なので　TETRiS しても\nもう１列　T-SPIN に使えるな…\nと考えて　Ｔ字穴を作ります。';
+    this.caption = 'Considering Well Height';
+    this.hint = 'If the well is 5 blocks high then after taking a tetris I could use the remaining block to make a t-spin... \nIs how you should think and build a T hole.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 9), G(0, 4, 9), G(0, 7, 9), G(3, 2, 12), G(2, 2, 13)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1626,8 +1626,8 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, T, I, T];
-    this.caption = 'Ｊ・Ｌを立てる先読み TSD　その１';
-    this.hint = 'フックのように　Ｊ・Ｌを\n付けるタイプの　先読み TSD です。';
+    this.caption = 'J and L Prophecy T-spins Part 1';
+    this.hint = 'This is a hook-like prophecy t-spin pattern.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 14), G(3, 8, 14), G(0, 4, 15), G(2, 1, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1655,8 +1655,8 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I, O, J, T];
-    this.caption = 'Ｊ・Ｌを立てる先読み TSD　その２';
-    this.hint = '左側には　Ｚを使いたいところ\nですが　NEXT によっては\nＪも有用です。';
+    this.caption = 'J and L Prophecy T-spins Part 2';
+    this.hint = 'You may want to use a Z on the left but \nlooking at the queue the J could also be helpful.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 15), G(0, 3, 14), G(1, -1, 14), G(2, 1, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1685,7 +1685,7 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [J, S, T];
     this.caption = '「QTK」';
-    this.hint = '「平衡の技法」で　少し触れた\nテクニック。「QTK」(急な高い壁)と\n呼ばれます。';
+    this.hint = 'This is a technique mentioned in the balanced stacking section.\nCalled 「QTK」 in Japanese, it is unnamed in the English community.';
     this.isStrictGuide = true;
     this.guides = [G(1, 1, 9), G(3, 0, 13), G(2, 0, 12)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1713,8 +1713,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, I, T, T];
-    this.caption = '「千鳥格子」';
-    this.hint = '先読みして　連続 TSD を\n狙う　この形は「千鳥格子」と\n呼ばれます。';
+    this.caption = 'More 「Cut Copy」';
+    this.hint = 'These prophecy back to back t-spins also go by the name「Cut Copy」.';
     this.isStrictGuide = true;
     this.guides = [G(3, 2, 14), G(0, 6, 15), G(2, 4, 16), G(2, 3, 17)];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -1742,8 +1742,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,0,0,0],
                           [1,1,1,1,1,1,1,0,0,0]];
     this.ingredients = [Z, L, S, T];
-    this.caption = '削って TST';
-    this.hint = 'TST の形を　削りながら\n作っていきます。';
+    this.caption = 'Skimming into TST';
+    this.hint = 'You can skim into a TST shape like this.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 18), G(3, 8, 16), G(0, 5, 15), G(1, 6, 17)];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -1771,8 +1771,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, I, T];
-    this.caption = 'TSD の先読みの実践　その１';
-    this.hint = 'TSD を発動してください。\nTETRiS をした後の　形を\nイメージしましょう。';
+    this.caption = 'Prophecy T-spin Practice 1';
+    this.hint = 'Execute a TSD. \nImagine what the board will look like after the tetris.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1800,8 +1800,8 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, L, T];
-    this.caption = 'TSD の先読みの実践　その２';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Execute a TSD. Prophecy T-spin Practice 2';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1829,8 +1829,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [L, J, T];
-    this.caption = 'TSD の先読みの実践　その３';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Prophecy T-spin Practice 3';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1858,8 +1858,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [L, Z, T];
-    this.caption = 'TSD の先読みの実践　その４';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Prophecy T-spin Practice 4';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1887,8 +1887,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [O, J, T];
-    this.caption = 'TSD の先読みの実践　その５';
-    this.hint = 'TSD を発動してください。\nこのように　Ｊを潜り込ませる\nテクニックは「シャロウグレイヴ」\nと呼ばれます。';
+    this.caption = 'Prophecy T-spin Practice 5';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1916,8 +1916,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, T, I, T];
-    this.caption = 'TSD の先読みの実践　その６';
-    this.hint = 'TSD を２回発動してください。';
+    this.caption = 'Prophecy T-spin Practice 6';
+    this.hint = 'Execute 2 TSDs.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -1945,8 +1945,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, T, Z, T];
-    this.caption = 'TSD の先読みの実践　その７';
-    this.hint = 'TSD を２回発動してください。';
+    this.caption = 'Prophecy T-spin Practice 7';
+    this.hint = 'Execute 2 TSDs.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -1974,8 +1974,8 @@ function Problem300(id){
                           [0,0,0,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, J, O, T, T];
-    this.caption = 'TSD の先読みの実践　その８';
-    this.hint = 'TSD を２回発動してください。\n１回目の TSD は　下から３・４列目で。';
+    this.caption = 'Prophecy T-spin Practice 8';
+    this.hint = 'Execute 2 TSDs. \nThe first TSD should be rows 3 and 4 from the bottom.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2003,8 +2003,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, Z, J, T, T];
-    this.caption = 'TSD の先読みの実践　その９';
-    this.hint = 'TSD を２回発動してください。\n「千鳥格子」の形になります。';
+    this.caption = 'Prophecy T-spin Practice 9';
+    this.hint = 'Execute 2 TSDs. \nIt will be a 「Cut Copy」.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2032,8 +2032,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [L, Z, S, T];
-    this.caption = 'TST の先読みの実践';
-    this.hint = 'TST を発動してください。';
+    this.caption = 'TST Prophecy Practice';
+    this.hint = 'Execute a TST.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -2061,8 +2061,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [O, L, T];
-    this.caption = '期末テスト　その１';
-    this.hint = 'TSD を発動してください。\nここからは　今まで習ったことの\n総集編です。知識をフル動員！';
+    this.caption = 'Final Exam Part 1';
+    this.hint = "Execute a TSD. \nFrom here on it's everything you've learned until now. Use your head!";
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2090,8 +2090,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, Z, I, T];
-    this.caption = '期末テスト　その２';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Final Exam Part 2';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2119,8 +2119,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [O, J, T];
-    this.caption = '期末テスト　その３';
-    this.hint = 'TSD を発動してください。\n「鋤の刃」を使います。\n別解もありますよ。';
+    this.caption = 'Final Exam Part 3';
+    this.hint = 'Execute a TSD. \nThere are 2 solutions.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2148,8 +2148,8 @@ function Problem300(id){
                           [1,0,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [S, Z, T, T];
-    this.caption = '期末テスト　その４';
-    this.hint = 'TSD を２回発動してください。\nこの十字型に　見覚えがありますか？';
+    this.caption = 'Final Exam Part 4';
+    this.hint = 'Execute 2 TSDs. \nDo you remember this cross shape？';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2177,8 +2177,8 @@ function Problem300(id){
                           [1,0,0,0,0,1,1,1,1,1],
                           [1,1,0,0,1,1,1,1,1,1]];
     this.ingredients = [Z, L, T];
-    this.caption = '期末テスト　その５';
-    this.hint = 'TST を発動してください。';
+    this.caption = 'Final Exam Part 5';
+    this.hint = 'Execute a TST.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -2206,8 +2206,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [J, L, T, T];
-    this.caption = '期末テスト　その６';
-    this.hint = 'TSD を２回発動してください。\nセクション22で習った　あの方法を\n使うのです。';
+    this.caption = 'Final Test Part 6';
+    this.hint = 'Execute 2 TSDs. \nThis is the pattern from section 22.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2235,8 +2235,8 @@ function Problem300(id){
                           [1,1,1,0,0,0,1,1,1,1],
                           [1,1,1,0,0,0,1,1,1,1]];
     this.ingredients = [Z, S, O, T];
-    this.caption = '期末テスト　その７';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Final Exam Part 7';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2264,8 +2264,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [L, Z, I, S, T];
-    this.caption = '期末テスト　その８';
-    this.hint = 'TETRiS と TSD を発動して\nください。TSD は先読みで\n作っておきましょう。';
+    this.caption = 'Final Exam Part 8.';
+    this.hint = 'Execute a tetris and a TSD. Build the TSD by looking ahead.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -2293,8 +2293,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [Z, S, T, L, Z, S, T];
-    this.caption = '期末テスト　その９';
-    this.hint = 'TSD を２回発動してください。';
+    this.caption = 'Final Exam Part 9';
+    this.hint = 'Execute 2 TSDs.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2322,8 +2322,8 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, J, T];
-    this.caption = '期末テスト　その10';
-    this.hint = 'TSD を発動してください。\n…しかし　普通の TSD では\nダメなようです。';
+    this.caption = 'Final Exam Part 10';
+    this.hint = 'Execute a TSD. \n…but it seems a regular TSD wont work.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2351,8 +2351,8 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [T, Z, J, J, T, I, I];
-    this.caption = '卒業テスト　その１';
-    this.hint = '6 REN を決めてください。\n１回でも多く　REN にするために\n消し方を工夫してみてください。';
+    this.caption = 'Graduation Test Part 1';
+    this.hint = 'Execute a 6 combo. \nTry to figure out how you can build the largest combo in one go.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,0,0,0,6];
@@ -2380,8 +2380,8 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [O, I, S, L, Z, T];
-    this.caption = '卒業テスト　その２';
-    this.hint = 'TSD を発動してください。\n６手しかありませんので\n最短手順で　TSD を！';
+    this.caption = 'Graduation Test Part 2';
+    this.hint = 'Execute a TSD. \nYou only have 6 pieces so build it as quickly as possible!';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2409,8 +2409,8 @@ function Problem300(id){
                           [1,1,1,0,0,0,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, Z, S, T, T];
-    this.caption = '卒業テスト　その３';
-    this.hint = 'TSD を２回発動してください。';
+    this.caption = 'Graduation Test Part 3';
+    this.hint = 'Execute 2 TSDs.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,2,0,0,0,0];
@@ -2438,8 +2438,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, J, Z, T];
-    this.caption = '卒業テスト　その４';
-    this.hint = 'TSD を発動させてください。';
+    this.caption = 'Graduation Test Part 4';
+    this.hint = 'Execute a TSD. ';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2467,8 +2467,8 @@ function Problem300(id){
                           [0,0,1,1,1,1,1,1,1,1],
                           [0,0,0,1,1,1,1,1,1,1]];
     this.ingredients = [Z, I, L, J, T];
-    this.caption = '卒業テスト　その５';
-    this.hint = 'TST を発動してください。\n「TKI」(問題11-9)を狙います。';
+    this.caption = 'Graduation Test Part 5';
+    this.hint = 'Execute a TST. \nAim for「TKI」from problems 11-9.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -2496,8 +2496,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [S, J, O, L, T];
-    this.caption = '卒業テスト　その６';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Graduation Test Part 6';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2525,8 +2525,8 @@ function Problem300(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,0,0,0,1,1,1,1,1]];
     this.ingredients = [I, L, T, T];
-    this.caption = '卒業テスト　その７';
-    this.hint = 'TSM と TST を発動してください。';
+    this.caption = 'Graduation Test Part 7';
+    this.hint = 'Execute a TSM and a TST.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -2554,8 +2554,8 @@ function Problem300(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, L, J, I, T];
-    this.caption = '卒業テスト　その８';
-    this.hint = 'TETRiS と TSD を発動して\nください。';
+    this.caption = 'Graduation Test Part 8';
+    this.hint = 'Execute a Tetris and a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -2583,8 +2583,8 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [J, L, Z, T];
-    this.caption = '卒業テスト　その９';
-    this.hint = 'TSD を発動してください。';
+    this.caption = 'Graduation Test Part 9';
+    this.hint = 'Execute a TSD.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2612,8 +2612,8 @@ function Problem300(id){
                           [1,1,1,0,1,0,0,1,1,1],
                           [1,1,1,1,1,0,0,1,1,1]];
     this.ingredients = [I, O, T, L, Z, J, S,   Z, L, O, I, J, T, S,   Z, O, J, L, T, I];
-    this.caption = '卒業テスト　その10';
-    this.hint = '19 REN を発動してください。\n実戦では　HOLD をうまく\n使って REN を　繋げましょう。';
+    this.caption = 'Graduation Test Part 10';
+    this.hint = 'Execute a 19 combo. \nIn a real battle take advantage of HOLD to build the largest combo you can.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,0,0,0,19];
@@ -2641,8 +2641,8 @@ function Problem300(id){
                           [0,0,0,0,1,1,1,1,1,1],
                           [0,0,0,0,1,1,1,1,1,1]];
     this.ingredients = [J, L, O, J, T];
-    this.caption = '「超螺旋」';
-    this.hint = '強引な回転入れが　カッコイイ\nその名も「超螺旋」！\n魅せ技として　どうぞ。';
+    this.caption = '「L/J spin TST」';
+    this.hint = 'I believe this shape is unnamed among the English community, but it is pretty flashy.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(2, 0, 15), G(0, 2, 13), G(0, 1, 17), G(3, 2, 17)];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -2670,8 +2670,8 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [O, L, J, I, Z, S, T, J, L, S, Z, O, I, T, J, S, Z, L, O, I, T];
-    this.caption = '「アルバトロス・スペシャル」';
-    this.hint = '高効率の　攻撃型テンプレです。\n覚えるのが大変なので「おまけ」\nにしましたが実戦でも有用です。';
+    this.caption = '「Albatross Special」';
+    this.hint = "This is a high efficiency opener. \nIt's left in 「Bonus」 because it's difficult to remember, but very useful in battle. ";
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 18), G(2, 5, 17), G(2, 6, 16), G(1, 7, 16), G(0, 3, 16),
                    G(3, 0, 17), G(2, 1, 16), G(1, -1, 17), G(3, 2, 15), G(1, 4, 17),
@@ -2703,8 +2703,8 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,0,0,0],
                           [1,1,1,1,1,1,1,0,0,0]];
     this.ingredients = [T, J, T, J, T, J, Z, Z, Z];
-    this.caption = '「サグラダ・ファミリア」';
-    this.hint = '無限に　Ｚの TRIPLE を狙える\n夢のような　タワーです！　でも\n特に　役には立ちません。';
+    this.caption = '「Sagrada Familia」';
+    this.hint = 'This is a dream-like infinite Z-spin triple tower! \nIt is completely useless.';
     this.isStrictGuide = true;
     this.guides = [G(1, 5, 16), G(3, 8, 17), G(1, 5, 13), G(3, 8, 14), G(1, 5, 10),
                    G(3, 8, 11), G(1, 6, 11), G(1, 6, 14), G(1, 6, 17)];
@@ -2733,8 +2733,8 @@ function Problem300(id){
                           [0,0,1,1,1,1,1,1,1,1],
                           [0,0,0,1,1,1,1,1,1,1]];
     this.ingredients = [L, I, S, L, Z, T, T, J, I, L, T, T];
-    this.caption = '「 Massi4h の永久機関」';
-    this.hint = '無限に TST を作れます。実戦で\n使われることは　まずないですが\nスコア稼ぎには使われることも。';
+    this.caption = "「Infinite TST」";
+    this.hint = 'You can infinitely build TSTs. \nIt is very difficult to use in a battle, but it comes in handy for getting high score.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 17), G(3, -1, 13), G(3, 2, 15), G(3, 2, 13), G(3, 0, 10),
                    G(1, 0, 13), G(1, 0, 16), G(1, -1, 14), G(3, 2, 15), G(3, 2, 12),
@@ -2764,8 +2764,8 @@ function Problem300(id){
                           [0,0,0,0,0,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [Z, L, I, I, S, J, Z, T, T, T, T];
-    this.caption = '「無限階段」';
-    this.hint = 'こちらは TSM → TST を無限に。\nどんどんＴミノが　潜っていく\nのが　病み付きになる…かも。';
+    this.caption = '「Infinite Stairs」';
+    this.hint = 'You can infinitely build a TSM -> TST. \nSending the T pieces down the stairs can be strangely addicting…';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 16), G(2, 0, 14), G(3, 3, 15), G(3, -1, 11), G(3, 3, 12),
                    G(2, 2, 10), G(3, 0, 8), G(0, 1, 17), G(3, 2, 16), G(0, 1, 17),
@@ -2799,8 +2799,8 @@ function Problem300(id){
                         T, S, L, O, T, I,
                         S, J, Z, J, O, I,
                         T, Z, S, L, Z, I];
-    this.caption = '究極の REN';
-    this.hint = '理論上、最大何 REN できる？\nデッドラインより上に積んで\nいれば、さらに伸びるかも。';
+    this.caption = 'Ultimate Combo';
+    this.hint = 'Theoretically、What is the longest possible combo？\nIf you were to have stacked on the garbage you might be able to continue it longer.';
     this.isStrictGuide = true;
     this.guides = [G(2, 7, -2), G(3, 3, -1), G(1, 4, 0), G(1, 1, 1), G(0, -1, 2),
                    G(0, 6, 2), G(1, -1, 2), G(2, 2, 3), G(1, 7, 4), G(1, 6, 5),
@@ -2833,8 +2833,8 @@ function Problem300(id){
                           [1,1,1,1,0,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [S];
-    this.caption = 'Ｓミノごりごり';
-    this.hint = 'TRIPLE を発動させてください。\nそのままガイドの位置まで動かし\nそこから　左回転を　ひたすら\n連打するだけで　クリアです。';
+    this.caption = 'S Piece Scraping';
+    this.hint = 'Execute a triple. \nMove it into the guide piece, and then repeatedly rotate counterclockwise to reach the bottom.';
     this.isStrictGuide = false;
     this.guides = [G(0, 4, 3)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2862,8 +2862,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,0,1,1,1,1,1]];
     this.ingredients = [L];
-    this.caption = 'Ｌミノはらはら';
-    this.hint = 'TRIPLE を発動させてください。\nたとえば　ガイドの位置から\nひたすら　左回転。';
+    this.caption = 'L Piece Anxiety';
+    this.hint = 'Execute a triple. \nKeep rotating counterclockwise from the guide piece.';
     this.isStrictGuide = false;
     this.guides = [G(3, 4, 2)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2891,8 +2891,8 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'Ｉミノまごまご';
-    this.hint = 'Ｉミノを　うまく回転させて\n一番下まで持っていきましょう。';
+    this.caption = 'Flustered I Piece';
+    this.hint = 'Bring the I Piece to the bottom by skillfully rotating it down.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0];
@@ -2920,8 +2920,8 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [T, T, T, T, T, T, T, T, T, T];
-    this.caption = 'Ｔミノぞろぞろ';
-    this.hint = 'Ｔミノ10個を使って\nPerfect Clear を達成してください。';
+    this.caption = 'T Piece Swarm';
+    this.hint = 'Using 10 T Pieces execute a perfect clear.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,0,1,0,0];
