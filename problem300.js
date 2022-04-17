@@ -432,8 +432,8 @@ function Problem300(id){
                           [1,0,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = 'Giving up on an「 STSD 」';
-    this.hint = 'If your opponent sends garbage that ends up like this, the first T will not go in properly. \nIf that happens you can escape with an L or J.';
+    this.caption = 'Escaping「 STSD 」with Boomerang';
+    this.hint = 'If opponent garbage ends up in the wrong column like this, STSD will fail. \nIf that happens you can escape with an L or J.';
     this.isStrictGuide = true;
     this.guides = [G(3, 1, 16), G(2, 0, 16)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -520,7 +520,7 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, S, L, Z, I, O, O, T, S, T];
     this.caption = 'A Perfect Clear or TSD Opener';
-    this.hint = 'Depending on your 8th piece and beyond you can aim for a perfect clear, \nbut if that fails you can take a TSD as well.';
+    this.hint = 'Depending on your 2nd bag you can aim for a perfect clear, \nbut if that fails you can take a TSD as well.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(3, 0, 16), G(0, 4, 18), G(1, 4, 16), G(3, 6, 16),
                    G(0, 7, 18), G(0, 7, 16), G(2, 2, 17), G(0, 3, 18), G(2, 1, 17)];
@@ -727,8 +727,8 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = 'Balanced Satcking (Skimming) Part 5';
-    this.hint = 'Here you are able to clear a line while aiming for a TSD';
+    this.caption = 'Balanced Stacking (Skimming) Part 5';
+    this.hint = 'Here you are able to skim while aiming for a TSD.';
     this.isStrictGuide = true;
     this.guides = [G(2, 5, 14), G(2, 4, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -931,7 +931,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [L, Z, S, T, I];
     this.caption = '「Donation」 Part 2';
-    this.hint = 'You will shortly cover your well, but be sure to think ahead and build in a way that it will be easily uncovered.';
+    this.hint = 'You will temporarily cover your well, but be sure to think ahead and build in a way that it will be easily uncovered.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 9), G(0, 6, 8), G(0, 0, 8), G(2, 2, 8), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -960,7 +960,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, O, T, I];
     this.caption = '「Donation」 Part 3';
-    this.hint = 'When building a TSD, be sure to build up exactly 2 blocks. \nAny more could easily put you a pinch!';
+    this.hint = 'When building a TSD, be sure to build up exactly 2 rows. \nAny more could easily put you a pinch!';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 12), G(0, 3, 14), G(2, 1, 13), G(3, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -1685,7 +1685,7 @@ function Problem300(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [J, S, T];
     this.caption = '「QTK」';
-    this.hint = 'This is a technique mentioned in the balanced stacking section.\nCalled 「QTK」 in Japanese, I believe it is unnamed in the English community.';
+    this.hint = 'This is a technique mentioned in the balanced stacking section.\nCalled 「QTK」.';
     this.isStrictGuide = true;
     this.guides = [G(1, 1, 9), G(3, 0, 13), G(2, 0, 12)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2641,8 +2641,8 @@ function Problem300(id){
                           [0,0,0,0,1,1,1,1,1,1],
                           [0,0,0,0,1,1,1,1,1,1]];
     this.ingredients = [J, L, O, J, T];
-    this.caption = '「L/J spin TST」';
-    this.hint = 'I believe this shape is unnamed among the English community, but it is pretty flashy.';
+    this.caption = '「Super Spiral」';
+     this.hint = 'This technique is known as a Super Spiral, forming a TST shape with a J/L spin, skimming.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(2, 0, 15), G(0, 2, 13), G(0, 1, 17), G(3, 2, 17)];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
