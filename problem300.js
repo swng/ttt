@@ -960,7 +960,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, O, T, I];
     this.caption = '「Donation」 Part 3';
-    this.hint = "When building a TSD, be sure to build up exactly 2 blocks. \nAny more could easily put you a pinch!';
+    this.hint = 'When building a TSD, be sure to build up exactly 2 blocks. \nAny more could easily put you a pinch!';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 12), G(0, 3, 14), G(2, 1, 13), G(3, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
