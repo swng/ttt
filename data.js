@@ -469,7 +469,7 @@ function SectionTitle(id){
   case 21: return '22 Various T-SPIN techniques & Openers (2)'; break;
   case 22: return '23 「Equilibrium technique」(shaving type)'; break;
   case 23: return '24 「Donation」'; break;
-  case 24: return '25 「uDonation」 [No guide]'; break;
+  case 24: return '25 「Donation」 [No guide]'; break;
   case 25: return '26 Prophecy T-spins'; break;
   case 26: return '27 Prophecy T-spins [No guide]'; break;
   case 27: return '28 Final test'; break;
