@@ -1888,7 +1888,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [O, J, T];
     this.caption = 'Prophecy T-spin Practice 5';
-    this.hint = 'Execute a TSD.';
+    this.hint = 'Execute a TSD. This J skim technique is known as 「Shallow Grave」';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
